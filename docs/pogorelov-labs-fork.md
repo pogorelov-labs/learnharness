@@ -7,7 +7,7 @@ the application; this fork retains their history and the AGPL-3.0 license.
 
 ## Provenance
 
-The initial integration starts from upstream `main` at
+The initial integration, made on 2026-10-28, starts from upstream `main` at
 [`3dd52110bbcbcba81645453ce0a8fdc230594c47`](https://github.com/amosblomqvist/learnharness/commit/3dd52110bbcbcba81645453ce0a8fdc230594c47)
 (after the 0.3.9 release). The following proposed changes were merged into the
 fork with their Git history intact. They remain separate, open upstream pull

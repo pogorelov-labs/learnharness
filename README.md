@@ -1,6 +1,7 @@
 > **Pogorelov Labs community fork — source preview.** This is an independent
 > fork of [LearnHarness](https://github.com/amosblomqvist/learnharness), not an
-> official release. It includes Exa search, OpenAI API dictation, GPT-6.1 Terra
+> official release. The initial fork integration was made on 2026-10-28. It
+> includes Exa search, OpenAI API dictation, GPT-6.1 Terra
 > support, and account-specific ChatGPT context limits. The upstream download
 > links below install the original app, not this fork. No fork installers are
 > published yet. See [fork provenance and changes](docs/pogorelov-labs-fork.md).
