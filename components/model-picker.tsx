@@ -15,8 +15,7 @@ import { defaultOrderLevel, populateLevel, THINKING_LABEL } from "@/components/t
 
 /** provider:id → contextWindow over the cached catalog — the client-side
  *  twin of the server's catalogContextLimits join (context-meter
- *  amendment, owner 2026-09-23: pi's live catalog is the ONLY limit
- *  source — no hardcoded fallback exists anywhere, so a model missing
+ *  amendment: the resolved catalog is the limit source, so a model missing
  *  from the index reads limit-null and the meter renders usage-only,
  *  the honest-render precedent). Consumed by the stats bar: the same
  *  cached /api/models fetch the picker rides feeds the denominator. */

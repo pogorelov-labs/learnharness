@@ -468,8 +468,8 @@ export function SettingsDialogBody({
 										onSectionChange={(next: AgentSettings) =>
 											void write("agent", next)
 										}
-										onCompactionChange={(next: CompactionSettings) =>
-											void write("compaction", next)
+										onCompactionChange={(change: (current: CompactionSettings | undefined) => CompactionSettings) =>
+											void write("compaction", change)
 										}
 									/>
 								</SettingsSection>
