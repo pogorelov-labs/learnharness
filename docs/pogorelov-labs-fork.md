@@ -25,6 +25,11 @@ regression tests for overlapping edits. When upstream incorporates a change,
 reconcile the fork against that implementation and its history rather than
 blindly applying the same fix twice.
 
+On 2026-10-29 the fork was synchronized with upstream `main` at
+[`dc4c398d5167865b84b0ccb3ec809eb88bf8f65f`](https://github.com/amosblomqvist/learnharness/commit/dc4c398d5167865b84b0ccb3ec809eb88bf8f65f)
+(version 0.4.0). The sync retains the four changes above alongside upstream's
+file-path input, custom-provider and Claude Code features.
+
 ## Scope and limitations
 
 - ChatGPT model availability and context limits are determined by the connected
